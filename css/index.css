@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+html {}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.04em;
+    line-height: 50px;
+}
+
+#wrap {
+    position: relative;
+    width: 100%;
+}
+
+#sidemn {
+    position: fixed;
+    right: 10px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 280px;
+    border-radius: 25px;
+    border: 2px solid #000;
+    overflow: hidden;
+    z-index: 10;
+    background-color: #fff;
+
+}
+
+#sidemn .in {
+    width: 90px;
+    height: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    border: 0.5px solid #ccc;
+}
+
+#sidemn .in li {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: calc(270px / 5);
+    cursor: pointer;
+}
+
+#sidemn .in li:hover {
+    background-color: #c9c9c9;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* header 시작 */
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1080px;
+    background: url(../images/bg_home.png)no-repeat 50%;
+}
+
+#header_in {
+    position: relative;
+    width: 1415px;
+    height: 800px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+#header_t {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#header_t .logo {
+    margin-left: 65px;
+}
+
+#header_t ul {
+    margin-top: 18px;
+    margin-right: 65px;
+    display: flex;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+}
+
+#header_t ul li {
+    margin-left: 45px;
+
+}
+
+#header_t ul li a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#header_t ul li a:hover {
+    color: #555;
+    border-bottom: 2px solid #555;
+}
+
+#header_m {
+    margin: 0 auto;
+    margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 310px;
+}
+
+#header_m .txt {
+    margin-left: 65px;
+}
+
+#header_m .txt span {
+    font-size: 54px;
+    letter-spacing: -0.05em;
+
+}
+
+#header_m .txt strong {
+    margin-left: 15px;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+#header_m .txt p {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#header_m .txt p:last-child {
+    margin-top: 0;
+}
+
+
+#header_m .img {
+    margin-right: 65px;
+}
+
+#header_b {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+#header_b .ico {
+    margin-left: 65px;
+}
+
+#header_b .ico a {
+    margin-right: 28px;
+}
+
+#header_b p {
+    margin-right: 65px;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+}
+
+/* header 끝 */
+
+#profiles {
+    margin: 0 auto;
+    width: 1650px;
+    height: 1080px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+
+}
+
+#skills {
+    margin: 0 auto;
+    width: 1650px;
+    height: 1080px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
+
+
+
+#project {
+    margin: 0 auto;
+    width: 1650px;
+    height: 1080px;
+    border: 1px solid #666;
+    box-sizing: border-box;
+}
+
+
+/* footer 시작------------------------------------------------------------------ */
+#footer {
+    display: flex;
+    margin: 0 auto;
+    width: 1650px;
+    height: 420px;
+}
+
+#footer .left {
+    width: 50%;
+    height: 420px;
+}
+
+#footer .tit {
+    padding-top: 50px;
+    width: 570px;
+    height: 140px;
+}
+
+#footer .tit p {
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 100;
+    letter-spacing: -0.02em;
+}
+
+#footer .txt {
+    margin-top: 115px;
+    display: flex;
+    width: 570px;
+    height: 30px;
+
+}
+
+#footer .txt h4 {
+    font-weight: 100;
+}
+
+#footer .txt h4:nth-child(2) {
+    margin-left: 320px;
+}
+
+#footer .sns {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 30px;
+}
+
+#footer .sns p {
+    line-height: 30px;
+}
+
+#footer .sns a {
+    margin-left: 18px;
+}
+
+#footer .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 420px;
+    background-color: #000;
+    color: #fff;
+}
+
+#footer .right .in {
+    position: relative;
+    width: calc(100% - 70px);
+    height: calc(420px - 70px);
+}
+
+#footer .right p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#footer .right span {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+#footer .right input {
+    float: right;
+    margin-top: 8px;
+    width: 560px;
+    height: 20px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+#footer .right input:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#footer .right input:focus {
+    background-color: rgb(36, 36, 36);
+}
+
+#footer .right .input_4 textarea {
+    margin-top: 8px;
+    width: 755px;
+    height: 60px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    resize: none;
+}
+
+#footer .right .input_4 textarea:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#footer .right .input_4 textarea:focus {
+    background-color: rgb(36, 36, 36);
+}
+
+
+#footer .right .input_1>div {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+#footer .right .input_2 {
+    margin-top: 35px;
+}
+
+#footer .right .input_2>div {
+    width: 100%;
+    height: 0.75px;
+    background-color: #fff;
+}
+
+#footer .right .input_3 {
+    margin-top: 35px;
+}
+
+#footer .right .input_3>div {
+    width: 100%;
+    height: 0.5px;
+    background-color: #fff;
+}
+
+#footer .right .input_4 {
+    margin-top: 35px;
+}
+
+#footer .right a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    font-size: 16px;
+    width: 105px;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+}
+
+#footer .right a:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+/* footer 끝------------------------------------------------------------------ */
